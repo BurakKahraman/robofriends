@@ -1,6 +1,6 @@
 {
-  "homepage" : "https://burakkahraman.github.io/robofriends/."
-  "name": "robofriends",
+  "homepage": "https://github.com/BurakKahraman/robofriends",
+  "name": "cls",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +11,8 @@
     "tachyons": "^4.11.1"
   },
   "scripts": {
-    "deploy":"yarn build && gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -25,5 +26,17 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BurakKahraman/robofriends.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BurakKahraman/robofriends/issues"
+  }
 }
